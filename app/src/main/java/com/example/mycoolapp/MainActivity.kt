@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
                 type = "message/rfc822"
                 putExtra(Intent.EXTRA_EMAIL, arrayOf(EMAIL))
                 putExtra(Intent.EXTRA_SUBJECT, SUBJECT)
-                putExtra(Intent.EXTRA_TEXT, "Link to project repository: ")
+                putExtra(Intent.EXTRA_TEXT, "Link to project repository: https://github.com/Liudmyla11/MyCoolApp.git")
                 putExtra(Intent.EXTRA_STREAM, it)
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             }
